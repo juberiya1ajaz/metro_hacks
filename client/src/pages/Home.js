@@ -10,7 +10,7 @@ export default function Home() {
         <div className="bg-[#f4ca5f]  p-10  rounded-lg border-black border-4 ">
           <h1 className="text-3xl  text-black font-bold md:text-6xl">Who we are</h1>
           <p className="text-xl py-4  text-black font-bold tracking-wider text-justify">
-            About the web app
+          To help a little bit from our side our team brainstormed and came up with Lung'sClinic where users can predict lung cancer by uploading the required CT Scan. Currently, the FDA has approved several AI programs in CXR and chest CT reading, which enables AI systems to take part in lung cancer detection. We also have provided secure user auth.
           </p>
 
           <Link to="/lungCancerPrediction">
@@ -33,7 +33,7 @@ export default function Home() {
         <div className="p-10 bg-gray-600 opacity-100 border-black border-4 rounded-lg">
           <h1 className="text-3xl md:text-5xl">What else do we have</h1>
           <p className="text-xl md:text-2xl py-4 tracking-wider">
-            Liver Clinic is a web app where you can:
+            Lung'Sclinic is a web app where you can:
           </p>
           <ul className="text-xl">
             <li className="list-disc">Easy to use.</li>

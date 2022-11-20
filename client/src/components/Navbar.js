@@ -18,7 +18,7 @@ export default function Navbar() {
       <nav className="flex items-center py-2 flex-wrap px-4 text-fontColor tracking-wider">
         <Link to="/">
           <span className="p-2 mr-4 inline-flex items-center text-4xl md:text-5xl cursor-pointer font-base text-white">
-            Liver Clinic
+            Lung'Sclinic
           </span>
         </Link>
         <button
@@ -45,7 +45,7 @@ export default function Navbar() {
                       duration={250}
                     >
                       <div className="text-2xl font-base tracking-wide cursor-pointer">
-                        Liver Clinic
+                        Lung'Sclinic
                       </div>
                     </Link>
 
