@@ -11,7 +11,11 @@
 - Coil: For monetization
 - Google Techable Machine: For traniing the ML model
 
-## 🔐 Best Use of DeSo
+## 💲 Best Web Monetization Project by Coil
+
+Additionally, we employ Coil to develop micropayment donations for helping those in need. You can monetise your website for a little price using the free, open-source, and open-source-compliant web monetization platform known as The coil.
+
+## 🔐 Best DeSO Hack
 
 To provide a secure user authentication, we use DeSo. DeSo is the first Layer 1 blockchain designed specifically for decentralised social media applications.
 
