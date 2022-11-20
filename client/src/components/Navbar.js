@@ -18,7 +18,7 @@ export default function Navbar() {
       <nav className="flex items-center py-2 flex-wrap px-4 text-fontColor tracking-wider">
         <Link to="/">
           <span className="p-2 mr-4 inline-flex items-center text-4xl md:text-5xl cursor-pointer font-base text-white">
-            APP NAME
+            Liver Clinic
           </span>
         </Link>
         <button
@@ -45,7 +45,7 @@ export default function Navbar() {
                       duration={250}
                     >
                       <div className="text-2xl font-base tracking-wide cursor-pointer">
-                        APP NAME
+                        Liver Clinic
                       </div>
                     </Link>
 
@@ -94,23 +94,33 @@ export default function Navbar() {
         <div className="hidden top-navbar w-full lg:inline-flex lg:flex-grow lg:w-auto">
           <div className="lg:inline-flex lg:flex-row lg:ml-auto lg:w-auto w-full text-xl lg:items-center items-start flex flex-col lg:h-auto space-x-2 mr-12">
             <Link to="/">
-              <span className="lg:inline-flex lg:w-auto w-full px-3 py-2 rounded items-center justify-center dark:hover:bg-navHover hover:bg-secondary cursor-pointer text-white">
-                Home
-              </span>
+              <button class="relative inline-flex items-center justify-center p-0.5 mb-2 mr-2 overflow-hidden text-sm font-medium text-gray-900 rounded-lg group bg-gradient-to-br from-cyan-500 to-blue-500 group-hover:from-cyan-500 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-cyan-200 dark:focus:ring-cyan-800">
+                <span class="relative px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 rounded-md group-hover:bg-opacity-0">
+                  Home
+                </span>
+              </button>
             </Link>
 
             <Link to="/lungCancerPrediction">
-              <span className="lg:inline-flex lg:w-auto w-full px-3 py-2 rounded items-center justify-center dark:hover:bg-navHover hover:bg-secondary cursor-pointer text-white">
-                Lung Cancer Prediction
-              </span>
+            <button class="relative inline-flex items-center justify-center p-0.5 mb-2 mr-2 overflow-hidden text-sm font-medium text-gray-900 rounded-lg group bg-gradient-to-br from-cyan-500 to-blue-500 group-hover:from-cyan-500 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-cyan-200 dark:focus:ring-cyan-800">
+  <span class="relative px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 rounded-md group-hover:bg-opacity-0">
+      Lung Cancer Prediction
+  </span>
+</button>
             </Link>
 
-            <button
+            {/* <button
               className="bg-[#6F5DE0] text-white py-2 px-8 rounded-md"
               onClick={() => handleAuth(4, false)}
             >
               Logout
-            </button>
+            </button> */}
+
+            <button class="relative inline-flex items-center justify-center p-0.5 mb-2 mr-2 overflow-hidden text-sm font-medium text-gray-900 rounded-lg group bg-gradient-to-br from-red-500 to-pink-500 group-hover:from-cyan-500 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-cyan-200 dark:focus:ring-cyan-800" onClick={() => handleAuth(4, false)}>
+  <span class="relative px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 rounded-md group-hover:bg-opacity-0">
+      Logout
+  </span>
+</button>
           </div>
         </div>
       </nav>

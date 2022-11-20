@@ -11,5 +11,11 @@
 }
 
 body {
-  background-color: #1b2431;
+  /* background-color: #1b2431; */
+  /* background-image: url("https://mir-s3-cdn-cf.behance.net/project_modules/fs/4c032e28008799.56e41b3bbd979.gif");
+  background-image: url("https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/b61a1b120702701.60b6fbbed2847.gif");
+  background-image: url("https://mir-s3-cdn-cf.behance.net/project_modules/disp/b2f92a129662089.61738499cf00b.gif"); */
+  background-repeat: no-repeat;
+  background-image: url("https://mir-s3-cdn-cf.behance.net/project_modules/2800_opt_1/0c0c16113299219.6024e23362676.jpg");
+  background-size: cover;
 }

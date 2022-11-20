@@ -14,7 +14,7 @@ function LogIn() {
 
   return (
     <div className="relative">
-      <div className="z-10 mt-16 bg-secondary md:h-96 md:w-96 md:mt-16 md:ml-44 rounded-3xl"></div>
+      <div className="z-10 mt-16 bg-red-400 border-2 border-black md:h-96 md:w-96 md:mt-16 md:ml-44 rounded-3xl"></div>
 
       <div className="z-20 p-4 m-8 origin-bottom-right transform border-4 border-tertiary lg:mx-56 md:mx-8 lg:-mt-80 rounded-2xl bg-gray-800">
         <div className="p-4 space-y-10 md:space-y-0 md:grid md:grid-cols-2">
@@ -24,7 +24,7 @@ function LogIn() {
 
           <div className="md:flex md:flex-col md:justify-center lg:pr-16">
             <h2 className="mb-4 text-[2.6rem] self-center font-bold tracking-wider text-white">
-              APP NAME
+              Lung Clinc
             </h2>
 
             <div className="grid place-items-center">
@@ -42,7 +42,7 @@ function LogIn() {
         </div>
       </div>
 
-      <div className="z-10 float-right w-40 h-40 mr-48 -mt-40 bg-secondary rounded-3xl md:block hidden"></div>
+      <div className="z-10 float-right w-40 h-40 mr-48 -mt-40 bg-pink-200 rounded-3xl md:block hidden"></div>
     </div>
   );
 }
