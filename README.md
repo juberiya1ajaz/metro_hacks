@@ -1,14 +1,20 @@
-##lung'sClinic
+## Lung'sClinic
 
 ## 💡 Inspiration
+
 Lung cancer is the 2nd most common cancer worldwide. It is the most common cancer in men and the 2nd most common cancer in women,
 with more than 2.2 million new cases in 2020. It remained the leading cause of cancer death, with an estimated 1.8 million deaths. 
 
 To help a little bit from our side our team brainstormed and came up with **Lung'sClinic**  where users can predict lung cancer by uploading the required CT Scan. Currently, the FDA has approved several AI programs in CXR and chest CT reading, which enables AI systems to take part in lung cancer detection.  We also have provided secure user auth.
 
 ## 💻 What it does
-- Secure user authentication
-- prediction of lung cancer.
+
+Our web app **Lung'sClinic** is built with the following features:
+
+- Predict lung cancer
+- Upload the image Chest CT Scan image.
+- A web app where you can check wether you have Lung Cancer or Not.
+
 ## ⚙️ How we built it
 
 - DeSo: For user authentication
@@ -40,7 +46,7 @@ To provide a secure user authentication, we use DeSo. DeSo is the first Layer 1 
 - How to make a secure authentication using DeSo.
 - How to use Coil for web monetization.
 
-## 🚀 What's next for lung'sClinic
+## 🚀 What's next for Lung'sClinic
 
 - Building a mobile app.
 - Training the ML model with more data.
